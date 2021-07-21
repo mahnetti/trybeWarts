@@ -1,4 +1,22 @@
 .header {
   display: flex;
+  justify-content: space-between;
   background-color: rgb(50, 167, 145);
+}
+.trybewarts-login {
+  display: flex;
+  flex: 3 100%;
+  margin: 10px;
+  justify-content: flex-end;
+  height: 20px;
+  flex-wrap: wrap;
+}
+.trybewarts-login #submit{
+  margin: 5px;
+}
+.trybewarts-login #password{
+  margin: 5px;
+}
+.trybewarts-login #email{
+  margin: 5px;
 }
