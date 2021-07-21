@@ -3,6 +3,7 @@
   justify-content: space-between;
   background-color: rgb(50, 167, 145);
 }
+
 .trybewarts-login {
   display: flex;
   flex: 3 100%;
@@ -11,12 +12,15 @@
   height: 20px;
   flex-wrap: wrap;
 }
-.trybewarts-login #submit{
+
+.trybewarts-login #submit {
   margin: 5px;
 }
-.trybewarts-login #password{
+
+.trybewarts-login #password {
   margin: 5px;
 }
-.trybewarts-login #email{
+
+.trybewarts-login #email {
   margin: 5px;
 }
