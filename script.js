@@ -1,6 +1,6 @@
-window.onload = function () {
+window.onload = () => {
   const botao = document.querySelector('#submit');
-  botao.addEventListener ('click', function(){
+  botao.addEventListener('click', () => {
     const senha = document.querySelector('#password');
     const login = document.querySelector('#email');
     const valorSenha = senha.value;
@@ -10,8 +10,7 @@ window.onload = function () {
 
     if (valorLogin === loginCorreto && valorSenha === senhaCorreta) {
       alert('Olá, Tryber!');
-    }
-    else {
+    } else {
       alert('Login ou senha inválidos.');
     }
   });
