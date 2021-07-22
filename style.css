@@ -1,29 +1,36 @@
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: rgb(50, 167, 145);
 }
 
 .header .trybewarts-login {
   display: flex;
-  margin: 10px;
   justify-content: flex-end;
-  height: 20px;
   flex-wrap: wrap;
-  margin-right: 250px;
-  margin-top: 40px;
+  align-items: center;
 }
 
 .trybewarts-login #submit {
-  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 0 5px;
 }
 
 .trybewarts-login #password {
-  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 0 5px;
 }
 
 .trybewarts-login #email {
-  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 0 5px;
 }
 
 .header #trybewarts-header-title {
@@ -34,5 +41,4 @@
 
 .header .trybewarts-header-logo {
   width: 100px;
-  margin-left: 250px;
 }
