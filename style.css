@@ -4,13 +4,14 @@
   background-color: rgb(50, 167, 145);
 }
 
-.trybewarts-login {
+.header .trybewarts-login {
   display: flex;
-  flex: 3 100%;
   margin: 10px;
   justify-content: flex-end;
   height: 20px;
   flex-wrap: wrap;
+  margin-right: 250px;
+  margin-top: 40px;
 }
 
 .trybewarts-login #submit {
@@ -23,4 +24,15 @@
 
 .trybewarts-login #email {
   margin: 5px;
+}
+
+.header #trybewarts-header-title {
+  display: flex;
+  color: white;
+  font-size: xxx-large;
+}
+
+.header .trybewarts-header-logo {
+  width: 100px;
+  margin-left: 250px;
 }
