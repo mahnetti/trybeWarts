@@ -75,3 +75,10 @@
   align-items: center;
   margin: 10px;
 }
+
+.main #evaluation-form .family-type {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
