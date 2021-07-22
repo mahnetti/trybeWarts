@@ -95,5 +95,23 @@
 }
 
 .main #evaluation-form .rate-input {
-  margin-left: 10px;
+  margin: 10px;
+}
+
+.main #evaluation-form .comment {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main #evaluation-form .terms {
+  margin: 10px;
+}
+
+#submit-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 0;
+  background-color: bisque;
+  margin: 10px;
 }
