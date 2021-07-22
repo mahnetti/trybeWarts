@@ -14,4 +14,17 @@ window.onload = () => {
       alert('Login ou senha inválidos.');
     }
   });
+
+  // tentativa ativar-desativar btn
+  document.querySelector('#submit-btn').disabled = true;
+  const agreeInput = document.querySelector("agreement");
+
+  agreeInput.addEventListener("click",function (event) {
+    const agreeValue = agreeInput.value;
+    if (agreeValue === 'agree') {
+      document.querySelector('#submit-btn').disabled = false;
+    } else {
+      document.querySelector('#submit-btn').disabled = true;
+    }
+  });
 };
