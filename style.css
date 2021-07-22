@@ -78,10 +78,6 @@
 
 .main #evaluation-form .family-type {
   display: inline-block;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  flex: 1 50%
 }
 
 .main #evaluation-form .content-type {
@@ -95,4 +91,5 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 10px;
 }
