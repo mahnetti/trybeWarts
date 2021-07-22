@@ -10,7 +10,7 @@ window.onload = () => {
 
     if (valorLogin === loginCorreto && valorSenha === senhaCorreta) {
       alert('Olá, Tryber!');
-    }else {
+    } else {
       alert('Login ou senha inválidos.');
     }
   });
