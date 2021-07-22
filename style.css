@@ -68,3 +68,10 @@
   align-items: center;
   margin: 10px;
 }
+
+.main #evaluation-form .personal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
