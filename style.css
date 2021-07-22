@@ -77,8 +77,22 @@
 }
 
 .main #evaluation-form .family-type {
-  display: flex;
-  justify-content: flex-start;
+  display: inline-block;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
+  flex: 1 50%
+}
+
+.main #evaluation-form .content-type {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main #evaluation-form .content-family {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
