@@ -93,3 +93,7 @@
   align-items: center;
   margin: 0 10px;
 }
+
+.main #evaluation-form .rate-input {
+  margin-left: 10px;
+}
