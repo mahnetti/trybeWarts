@@ -45,10 +45,19 @@
 
 .main {
   display: flex;
+  justify-content: space-between;
+  align-content: center;
 }
 
-#evaluation-form {
-  display: flex;
+.main #evaluation-form {
   width: 675px;
+  display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  border: solid 2px black;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  justify-content: flex-end;
 }
