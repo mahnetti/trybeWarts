@@ -61,3 +61,10 @@
   height: 500px;
   justify-content: flex-end;
 }
+
+.main #evaluation-form .full-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
