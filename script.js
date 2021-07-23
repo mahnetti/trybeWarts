@@ -17,7 +17,7 @@ window.onload = () => {
 };
 
 const botao = document.querySelector('#submit-btn');
-botao.disabled = true
+botao.disabled = true;
 const agreeInput = document.querySelector('#agreement');
 agreeInput.addEventListener('click', () => {
   const agreeValue = agreeInput.value;
