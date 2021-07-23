@@ -16,13 +16,14 @@ window.onload = () => {
   });
 };
 
-document.querySelector('#submit-btn').disabled = true;
+const botao = document.querySelector('#submit-btn');
+botao.disabled = true
 const agreeInput = document.querySelector('#agreement');
 agreeInput.addEventListener('click', () => {
   const agreeValue = agreeInput.value;
   if (agreeValue === 'agree') {
-    document.querySelector('#submit-btn').disabled = false;
+    botao.disabled = false;
   } else {
-    document.querySelector('#submit-btn').disabled = true;
+    botao.disabled = true;
   }
 });

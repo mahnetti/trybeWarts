@@ -54,7 +54,6 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  border: solid 2px black;
 }
 
 #trybewarts-forms-logo {
