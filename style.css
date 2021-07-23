@@ -114,3 +114,13 @@
   background-color: bisque;
   margin: 10px;
 }
+
+#footer {
+  display: flex;
+  font-size: large;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: grey;
+  padding: 20px;
+}
