@@ -27,3 +27,11 @@ agreeInput.addEventListener('click', () => {
     botao.disabled = true;
   }
 });
+
+const text = document.querySelector('#textarea');
+const counter = document.querySelector('#counter');
+
+text.addEventListener('keyup', () => {
+  const caracteres = text.value.split('');
+  counter.innerText = 500 - caracteres.length;
+});
